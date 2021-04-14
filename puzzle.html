@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Puzzle Game</title>
+  <style type="text/css">
+  .tst1{float:inherit; margin-top: 1px; padding-top: : 2px; padding-bottom: 10px; margin: 20px; display: inline-block; background-color: skyblue; text-align:center; align-content: center;}
+  .tst2{width: 800px; background-color: #FFFACD; text-align:center; display: inline-block;}
+  .tst3{text-align:center;}
+  .tst4{text-align: left; display: inline-block;}
+  .tst5{padding:10px;}
+  .tst6{
+     width:100px;
+     text-align:center;
+     line-height:100%;
+     padding:0.3em;
+     font:30px Arial,sans-serif bold;
+     font-style:normal;
+     text-decoration:none;
+     margin-left: 50px;
+     margin-right: 50px;
+     vertical-align:text-bottom;
+     zoom:1;
+     outline:none;
+     font-size-adjust:none;
+     font-stretch:normal;
+     border-radius:50px;
+     box-shadow:0px 1px 2px rgba(0,0,0,0.2);
+     text-shadow:0px 1px 1px rgba(0,0,0,0.3);
+     color:#fefee9;
+     border:0.2px solid #2299ff;
+     background-repeat:repeat;
+     background-size:auto;
+     background-origin:padding-box;
+     background-clip:padding-box;
+     background-color:#3399ff;
+     background: linear-gradient(to bottom, #eeeff9 0%,#3399ff 100%);}
+     .tst7{color: #FFFAF0; text-align: center;font-size: 20px;}
+  </style>
+  <script src="puzzle.js"></script>
+</head>
+<body class="tst3">
+  <h1>Welcome To the Puzzle Game!</h1>
+  <div class="tst2" >
+  <p  class="tst4">Here are the rules:<br>
+    1、There are 10 levels in total;<br>
+    2、Only if you get the right answer will you pass;<br>
+    3、When you meet the quzzle with more than one question, seperate the answers
+  with ",";<br>
+    4、Click the 'NEXT' button to move on;<br>
+    5、Click the 'ANALYSIS' button to get the analysis;<br>
+    6、Click the 'FINISH' button to finish the game.<br></p>
+  </div>
+  <div class="tst5">
+<button class="tst6" onclick="starting()">ANSWER</button>
+</div>
+
+<div class="tst3">
+    <div class="tst1" id="img0" style="display:block;"><p class="tst7">Question One</p><img src="puzzle问题/1.jpg" /></div>
+    <div class="tst1" id="img1" style="display:none;"><p class="tst7">Question Two</p><img src="puzzle问题/2.jpg" /></div>
+    <div class="tst1" id="img2" style="display:none;"><p class="tst7">Question Three</p><img src="puzzle问题/3.jpg" /></div>
+    <div class="tst1" id="img3" style="display:none;"><p class="tst7">Question Four</p><img src="puzzle问题/4.jpg" /></div>
+    <div class="tst1" id="img4" style="display:none;"><p class="tst7">Question Five</p><img src="puzzle问题/5.jpg" /></div>
+    <div class="tst1" id="img5" style="display:none;"><p class="tst7">Question Six</p><img src="puzzle问题/6.jpg" /></div>
+    <div class="tst1" id="img6" style="display:none;"><p class="tst7">Question Seven</p><img src="puzzle问题/7.jpg" /></div>
+    <div class="tst1" id="img7" style="display:none;"><p class="tst7">Question Eight</p><img src="puzzle问题/8.jpg" /></div>
+    <div class="tst1" id="img8" style="display:none;"><p class="tst7">Question Nine</p><img src="puzzle问题/9.jpg" /></div>
+    <div class="tst1" id="img9" style="display:none;"><p class="tst7">Question Ten</p><img src="puzzle问题/10.jpg" /></div>
+</div>
+<div class="tst5">
+<button class="tst6" onclick="nextqus()">NEXT</button>
+<button class="tst6" onclick="analysis()">ANALYSIS</button>
+<button class="tst6" onclick="finish()">FINISH</button>
+<div class="tst3">
+    <div class="tst1" id="im0" style="display:none;"><img src="puzzle解析/1.jpg" /></div>
+    <div class="tst1" id="im1" style="display:none;"><img src="puzzle解析/2.jpg" /></div>
+    <div class="tst1" id="im2" style="display:none;"><img src="puzzle解析/3.jpg" /></div>
+    <div class="tst1" id="im3" style="display:none;"><img src="puzzle解析/4.jpg" /></div>
+    <div class="tst1" id="im4" style="display:none;"><img src="puzzle解析/5.jpg" /></div>
+    <div class="tst1" id="im5" style="display:none;"><img src="puzzle解析/6.jpg" /></div>
+    <div class="tst1" id="im6" style="display:none;"><img src="puzzle解析/7.jpg" /></div>
+    <div class="tst1" id="im7" style="display:none;"><img src="puzzle解析/8.jpg" /></div>
+    <div class="tst1" id="im8" style="display:none;"><img src="puzzle解析/9.jpg" /></div>
+    <div class="tst1" id="im9" style="display:none;"><img src="puzzle解析/10.jpg" /></div>
+</div>
+</div>
+</body>
+</html>
