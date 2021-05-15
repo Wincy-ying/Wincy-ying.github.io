@@ -1,0 +1,139 @@
+body{
+  overflow-x: hidden;
+}
+.carousel-inner img{
+   width:auto;
+   height:100%;
+}
+
+.navbar-brand img{
+  width:30px;
+  height:30px;
+}
+.header{
+  background-color: rgba(224,255,255,0.5);
+}
+.jumbotron{
+  margin: 0;
+}
+.grin{
+  padding-bottom: 2rem;;
+}
+.group{
+  padding-bottom: 2rem;
+}
+.perin{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin:0 auto;
+}
+.card{
+  width:16rem;
+  border:none;
+  margin: 0 auto;
+}
+.card-body{
+  background-color:rgba(105,105,105,0.08)
+}
+.line1{
+  width:85%;
+  padding-bottom: 2rem;
+}
+.album{
+  background-color: rgba(254,254,254);
+  padding-right: 0;
+  margin: 0 auto;
+}
+.row-width{
+  width: auto;
+}
+.colpadding{
+  text-align: center;
+  padding-left:5;
+  padding-right: 0;
+  margin: 0 auto;
+}
+.gesture{
+  width: 60%;
+  height: auto;
+}
+.rowpadding{
+  padding-bottom: 3rem;
+  padding-right: 4rem;
+}
+.imgbox img{
+  width:90%;
+  height: auto;
+  transition:all .4s;
+	-moz-transition:all .4s;
+	-webkit-transition:all .4s;
+	-o-transition:all .4s;
+}
+.imgbox img:hover {
+	transform:scale(1.2);
+}
+.album-name h1{
+  padding-bottom: 2rem;
+  text-align: left;
+}
+.album-name h5{
+  padding-bottom: 1rem;
+}
+.concert{
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.video{
+  width:75%;
+  height: 75%;
+  margin: 0 auto;
+}
+.concert-title{
+  padding-top: 2rem;
+}
+.concert-title h2{
+  font-size: 40px;
+}
+.social{
+  padding-bottom: 2rem;
+}
+.social h2{
+  font-size: 40px;
+}
+.bi-twitter{
+  font-size: 80px;
+  color: rgba(29,161,242);
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.bi-instagram{
+  font-size: 80px;
+  background: #f09433;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.bi-youtube{
+  font-size: 80px;
+  color: rgba(255,0,0);
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.bi-twitter:hover, .bi-instagram:hover, .bi-youtube:hover{
+  opacity:0.5;
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 70%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+.end{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color:rgba(224,255,255,0.5);
+}
