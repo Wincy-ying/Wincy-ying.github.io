@@ -35,6 +35,15 @@ body{
 .card-body{
   background-color:rgba(105,105,105,0.08)
 }
+.card img{
+  transition:all .4s;
+	-moz-transition:all .4s;
+	-webkit-transition:all .4s;
+	-o-transition:all .4s;
+}
+.card img:hover{
+  transform:scale(1.2);
+}
 .line1{
   width:85%;
   padding-bottom: 2rem;
